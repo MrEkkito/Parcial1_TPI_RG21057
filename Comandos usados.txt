@@ -1,0 +1,7 @@
+--> Para construir la imagen
+
+docker build -t rg2157server-php .
+
+---> Para crear el contenedor
+
+docker run -p 3000:80 -d -v ${PWD}/src:/var/www/html/ --name rg21057-contenedor-server rg2157server-php
