@@ -44,7 +44,6 @@ $personajes = [
     <a href="#home" name="villano">Personajes secundarios</a>
 
     <div class="card">
-        <!--Aqui vamos a imprimir filtrando los personajes -->
 <?php 
     if ($filtrado = )
         foreach ($personajes as $p){
@@ -57,5 +56,4 @@ $personajes = [
 
 </div>    
 </body>
-<!-- Aqui quiero que me escribas en comentarios los comandos para añadir archivos al commit usando git bash, tambien ponerle nombre y enviar al origen
 </html>
